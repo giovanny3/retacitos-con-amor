@@ -3,6 +3,12 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 header,
 main,
 aside,
@@ -18,7 +24,7 @@ footer {
 }
 
     header {
-        background-color: aliceblue;
+        background-color:cadetblue;
         grid-area: header;
         align-items: center;
         padding: 10;
@@ -32,7 +38,7 @@ footer {
     }
 
     main { 
-        background-color: aqua;
+        background-color:antiquewhite;
         grid-area: main;
         text-align: center;
         align-items: center;
@@ -42,14 +48,17 @@ footer {
     }
 
     aside{
-        background-color: blueviolet;
+    
+        background-color:brown;
        grid-area: aside;
-       
+       align-items: center;
     }
 
     footer{
-        background-color: coral;
+        background-color:brown;
         grid-area: footer;
+        text-align: center;
+        
     }
 
 
@@ -67,7 +76,7 @@ footer {
         
     }
     h1 { 
-        font-size: small;
+        font-size:medium;
         justify-content: center;
         padding-top: 20px;
     }
@@ -101,8 +110,8 @@ footer {
         display: flex;
         justify-content: center;
         border: 1px solid black;
-        background-color: aliceblue;
-        border-radius: 2%;
+        background-color: cadetblue;
+        border-radius:2%;
         margin: 10px;
         padding: 20px;
     
@@ -112,13 +121,26 @@ footer {
 nav {
     justify-content: center;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
+    
 }
 
 nav img { 
     border-radius: 50%;
 }
 
+nav a {
+    
+    color: black;
+    
+}
 
+footer div { 
+   display: flex;
+    justify-content: center;
+}
+footer div i { 
+    padding: 10px;
+}
  
-        
+    
